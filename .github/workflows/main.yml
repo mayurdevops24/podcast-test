@@ -16,11 +16,5 @@ jobs:
       pip install pyyaml
    - name: Run feed Generator
      run: python feed.py
-   - name: Push Repo
-     run :
-      git config user.name  mayur mahajan
-      git config user.email mayuryesh@gmail.com
-      git add .
-      git commit -m "Modified Feed"
-      git push
+ 
  
