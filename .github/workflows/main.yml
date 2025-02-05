@@ -16,5 +16,3 @@ jobs:
       pip install pyyaml
    - name: Run feed Generator
      run: python feed.py
- 
- 
